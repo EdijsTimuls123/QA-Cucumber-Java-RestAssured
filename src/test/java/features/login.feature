@@ -1,5 +1,6 @@
 Feature: Login and verify user balance
 
+  @QA @Test
   Scenario Outline: Login and verify openingBalance for different users
     Given the user logs in with username "<username>" and password "<password>"
     Then the response status should be 200
